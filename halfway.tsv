@@ -119,7 +119,7 @@ OPEN DOOR	开门	ui.newUI.GameUI
 OPEN CONTAINER	打开容器	ui.newUI.GameUI
 TALK TO 	开始对话 ？	ui.newUI.GameUI
 FINISH LEVEL	结束本关	ui.newUI.GameUI
-GO TO LEVEL	前往下一关
+GO TO LEVEL	前往下一关	
 DO YOU WANT TO LEAVE THE AREA?\n\n(YOU CAN KEEP EXPLORING BY CLICKING NO)	要结束探索了吗？\n\n（你可以点“否”继续探索地图中未领取的物品）	ui.newUI.GameUI
 DO YOU WANT TO BEGIN MISSION BRIEFING FOR THE NEXT MISSION?	要开始执行下一个任务了吗？	ui.newUI.GameUI
 MOVE CLOSER TO INTERACT	
