@@ -204,7 +204,7 @@ STEADY SHOT
 SELF HEAL		
 
 
-	游戏内战斗界面-战斗日志
+	游戏内战斗界面-战斗日志	
  HAS SPOTTED AN ENEMY.	 发现了一个敌人。	gamestate.states.human.ToTurnBasedTransition
  rolled 		
  and hit the target.	 并且击中了目标。	unitaction.state.AttackingAction
