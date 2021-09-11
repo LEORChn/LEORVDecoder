@@ -1,0 +1,253 @@
+text	trans	path
+	主屏	
+sync WORKSHOP FILES	正在同步 Steam 创意工坊文件...	screen.LoadingScreen
+V. 1.2.14	疯狂小瑞瑞_LEORChn 内核汉化 v1.2.14	ui.menu.MainMenu
+PRESS ANY KEY TO CONTINUE	点击进入	ui.menu.MainMenu
+
+	开始游戏前	
+NEW GAME	新的开始	ui.menu.MainMenu
+EMPTY	空存档位	ui.menu.MainMenu
+START NEW GAME	开始新游戏	ui.menu.MainMenu
+IF YOU CONTINUE YOU WILL OVERRIDE THE EXISTING SAVE GAME, ARE YOU SURE?	确定要覆盖存档吗？	ui.menu.MainMenu
+THE LATEST UPDATE INCLUDED SIGNIFICANT BALANCING CHANGES. WE RECOMMEND YOU RESTART WITH A NEW GAME.\n\nCONTINUE ANYWAY?	游戏已更新，但存档版本较旧。虽然还是可以玩，但是比较建议开新存档，这样可以享受更平衡的数值。\n\n要继续游戏吗？	ui.menu.MainMenu
+THIS SAVE GAME WAS CREATED USING MODIFICATIONS WHICH HAVE BEEN DEACTIVATED OR ARE NOT INSTALLED ANYMORE. CONTINUING THE GAME WITHOUT THEM MIGHT CAUSE TECHNICAL ISSUES AND IS NOT RECOMMENDED.\n\nCONTINUE ANYWAY?	这个存档所用的 MOD 尚未安装或启用，继续游戏可能会出现 BUG。\n\n要继续游戏吗？	ui.menu.MainMenu
+"FAILED TO CONNECT TO STEAM! YOUR PROGRESS (STATS, ACHIEVEMENTS, CLOUD SAVES) WON'T BE PERSISTED!"	无法连接 Steam！统计数据、成就、存档云存储功能将无法使用和保存！	ui.menu.MainMenu
+YES	是	
+NO	否	
+
+CONTINUE GAME	旧的回忆	ui.menu.MainMenu
+CONTINUE	继续游戏	ui.menu.MainMenu
+
+OPTIONS	游戏设置	ui.menu.MainMenu
+SOME SETTINGS HAVE BEEN MODIFIED. DO YOU WANT TO APPLY YOUR CHANGES?	有些设置发生了更改，要确认更改吗？	ui.newUI.options.OptionsMenu.CheckModifiedOptionsClickListener
+APPLY	确认更改	ui.newUI.options.OptionsMenu.CheckModifiedOptionsClickListener
+DISCARD	放弃	ui.newUI.options.OptionsMenu.CheckModifiedOptionsClickListener
+VIDEO	视频设置	ui.menu.MainMenu
+VIDEO RESOLUTION	分辨率	ui.newUI.options.OptionsMenu
+FULLSCREEN	全屏	ui.newUI.options.OptionsMenu
+ENABLE HIGH RESOLUTIONS	高分辨率	ui.newUI.options.OptionsMenu
+THIS GAME IS OPTIMIZED FOR RESOLUTIONS OF 1280 X 720 TO 1440 X 900.\nUSING HIGHER RESOLUTIONS MAY AFFECT YOUR GAMING EXPERIENCE.	本游戏已着重优化 1280x720 至 1440x900 之间的分辨率。\n使用更高的分辨率可能会影响你的游戏体验。	ui.newUI.options.OptionsMenu
+OK	确认	ui.newUI.options.OptionsMenu
+CANCEL	取消	ui.newUI.options.OptionsMenu
+SHOW TUTORIAL PANELS	显示教程面板	ui.newUI.options.OptionsMenu
+ENABLE UI COLOR SHIFT EFFECT	颜色偏移抖动效果	ui.newUI.options.OptionsMenu
+APPLY	确认更改	ui.menu.MainMenu
+
+AUDIO	音频设置	ui.menu.MainMenu
+MUSIC VOLUME	音乐音量	ui.newUI.options.OptionsMenu
+SOUND FX VOLUME	音效音量	ui.newUI.options.OptionsMenu
+DIALOG SFX	对话效果	ui.newUI.options.OptionsMenu
+
+CONTROLS	控制设置	ui.menu.MainMenu
+CAMERA	视角控制	
+SCROLL UP	向上滚屏	ui.newUI.options.GameOptions.Controls.Action
+SCROLL DOWN	向下滚屏	ui.newUI.options.GameOptions.Controls.Action
+SCROLL LEFT	向左滚屏	ui.newUI.options.GameOptions.Controls.Action
+SCROLL RIGHT	向右滚屏	ui.newUI.options.GameOptions.Controls.Action
+ENABLE AUTO-SCROLL ON USER ACTIONS	自动滚屏到对应人物	ui.newUI.options.OptionsMenu
+GAMEPLAY	操作控制	
+END PLAYER TURN	结束玩家回合	ui.newUI.options.GameOptions.Controls.Action
+SELECT 1ST CHARACTER	选择1号角色	ui.newUI.options.GameOptions.Controls.Action
+SELECT 2ND CHARACTER	选择2号角色	ui.newUI.options.GameOptions.Controls.Action
+SELECT 3RD CHARACTER	选择3号角色	ui.newUI.options.GameOptions.Controls.Action
+SELECT 4TH CHARACTER	选择4号角色	ui.newUI.options.GameOptions.Controls.Action
+SELECT 5TH CHARACTER	选择5号角色	ui.newUI.options.GameOptions.Controls.Action
+SELECT 6TH CHARACTER	选择6号角色	ui.newUI.options.GameOptions.Controls.Action
+SELECT 7TH CHARACTER	选择7号角色	ui.newUI.options.GameOptions.Controls.Action
+SELECT 8TH CHARACTER	选择8号角色	ui.newUI.options.GameOptions.Controls.Action
+SELECT PREVIOUS CHARACTER OR TARGET	选择上一个角色或目标	ui.newUI.options.GameOptions.Controls.Action
+SELECT NEXT CHARACTER OR TARGET	选择下一个角色或目标	ui.newUI.options.GameOptions.Controls.Action
+TOGGLE RING MENU	环形菜单	ui.newUI.options.GameOptions.Controls.Action
+ATTACK TARGET	执行攻击	ui.newUI.options.GameOptions.Controls.Action
+RELOAD WEAPON	重新装弹	ui.newUI.options.GameOptions.Controls.Action
+RETALIATE	执行战术回击	ui.newUI.options.GameOptions.Controls.Action
+USE SPECIAL	使用主动技能	ui.newUI.options.GameOptions.Controls.Action
+USE MEDKIT	使用医疗包	ui.newUI.options.GameOptions.Controls.Action
+USE GRENADE	使用手雷	ui.newUI.options.GameOptions.Controls.Action
+INSTANT FORWARD DIALOG	确认对话	ui.newUI.options.GameOptions.Controls.Action
+INSTANT FINISH DIALOG	跳过对话	ui.newUI.options.GameOptions.Controls.Action
+USER INTERFACE	界面控制	
+OPEN/CLOSE INVENTORY	开关背包界面	ui.newUI.options.GameOptions.Controls.Action
+OPEN/CLOSE SHOP	开关商店界面（基地可用）	ui.newUI.options.GameOptions.Controls.Action
+CANCEL ACTION / TOGGLE INGAME MENU	取消操作、打开游戏菜单	ui.newUI.options.GameOptions.Controls.Action
+SHOW INTERACTION TOOLTIPS	高亮可互动物体	ui.newUI.options.GameOptions.Controls.Action
+TOGGLE INGAME CONSOLE	打开控制台	ui.newUI.options.GameOptions.Controls.Action
+SCREENSHOT	截屏	ui.newUI.options.GameOptions.Controls.Action
+MUTE INGAME MUSIC	音乐静音	ui.newUI.options.GameOptions.Controls.Action
+RESET	恢复默认	ui.menu.MainMenu
+
+CREDITS	制作人名单	ui.menu.MainMenu
+MODS		ui.menu.MainMenu
+"YOU'VE CHANGED THE STATUS OF SOME MODS. THIS REQUIRES A RELOAD. THE GAME WILL NOW RESTART."	你更改了一些 MOD，需要重启游戏才能生效。	ui.newUI.options.OptionsMenu
+EXIT	退出游戏	ui.menu.MainMenu
+
+	游戏内ESC菜单	
+RESUME	继续游戏	ui.menu.IngameMenu
+RESTART LEVEL	重启本关	ui.menu.IngameMenu
+RELOAD FROM HOMEBASE	从基地重来	ui.menu.IngameMenu
+EXIT TO MENU	返回主菜单	ui.menu.IngameMenu
+QUIT TO DESKTOP	退出游戏	ui.menu.IngameMenu
+
+	游戏失败菜单	
+RESTART LEVEL	重启本关	ui.menu.MissionFailedMenu
+RELOAD FROM HOMEBASE	从基地重来	ui.menu.MissionFailedMenu
+EXIT TO MENU	返回主菜单	ui.menu.MissionFailedMenu
+QUIT TO DESKTOP	退出游戏	ui.menu.MissionFailedMenu
+
+	游戏内基础界面	
+CLICK TO CONTINUE	继续游戏	ui.newUI.GameUI
+GAME PROGRESS SAVED	游戏已保存	ui.newUI.GameUI
+CLICK ON THE MAP TO SELECT YOUR MISSION	点击地图并选择任务	ui.newUI.GameUI
+TACTICAL MAP	战术地图	ui.newUI.border.MapBorder
+NO ENEMY ACTIVITY	暂时安全	ui.newUI.border.TurnButton
+FINISH PLAYER TURN	点此结束回合	ui.newUI.border.TurnButton
+ENEMY ACTIVITY	敌人回合	ui.newUI.border.TurnButton
+ENEMY SPOTTED	发现敌人	ui.newUI.border.TurnButton
+IN HOMEBASE	基地	ui.newUI.border.TurnButton
+OPTIONS (ESC)	选项（ESC键）	
+OPEN SHOP (U)	打开商店（U键）	
+MANAGE EQUIPMENT (I)	管理物品（I键）	
+CLOSE	关闭	
+CLOSE INVENTORY	关闭背包	
+OPEN INVENTORY (I)	打开背包（I键）	
+HP:	体力： 	ui.newUI.inventory.CharacterHUD.1
+SH:	\n护盾： 	ui.newUI.inventory.CharacterHUD.1
+SH: 0/0	\n护盾： 0/0	ui.newUI.inventory.CharacterHUD.1
+AP:	\n行动点 	ui.newUI.inventory.CharacterHUD.1
+DOOR	门	
+OPEN DOOR	开门	ui.newUI.GameUI
+OPEN CONTAINER	打开容器	ui.newUI.GameUI
+TALK TO 	开始对话 ？	ui.newUI.GameUI
+FINISH LEVEL	结束本关	ui.newUI.GameUI
+GO TO LEVEL	前往下一关
+DO YOU WANT TO LEAVE THE AREA?\n\n(YOU CAN KEEP EXPLORING BY CLICKING NO)	要结束探索了吗？\n\n（你可以点“否”继续探索地图中未领取的物品）	ui.newUI.GameUI
+DO YOU WANT TO BEGIN MISSION BRIEFING FOR THE NEXT MISSION?	要开始执行下一个任务了吗？	ui.newUI.GameUI
+MOVE CLOSER TO INTERACT	
+
+	游戏内背包界面	
+// PROFILE:	// 个人资料：	ui.newUI.inventory.CharacterInventory
+// INVENTORY	// 储物箱	ui.newUI.inventory.CharacterInventory
+// HOMEBASE SECURE VAULT	// 基地保险柜	ui.newUI.team.HomebaseStash
+HEALTH:	体力：	ui.newUI.inventory.CharacterStats
+HEALTH DETERMINES HOW MUCH DAMAGE THE CHARACTER CAN TAKE BEFORE BEING KNOCKED OUT.	体力值决定角色被击倒前可承受的伤害量。	ui.newUI.inventory.CharacterStats.HealthTooltip
+AGILITY:	敏捷：	ui.newUI.inventory.CharacterStats
+AGILITY DETERMINES HOW FAR A UNIT CAN WALK. IT ALSO INCREASES HIT-CHANCE REDUCTION WHEN IN COVER.	敏捷值可以决定一个行动点能走多远。还可以在有掩体防护时降低被命中率。	ui.newUI.inventory.CharacterStats.AgilityTooltip
+AIMING:	命中：	ui.newUI.inventory.CharacterStats
+AIMING DETEMINES HOW ACCURATE A UNIT CAN AIM IT ALSO UMPROVES CRITICAL HIT-CHANCE.		ui.newUI.inventory.CharacterStats.AimingTooltip
+UNIQUE SKILLS:	专属技能：	ui.newUI.inventory.CharacterSkills
+ACTIVE	主动技	ui.newUI.inventory.CharacterSkills
+PASSIVE	被动技	ui.newUI.inventory.CharacterSkills
+CAPACITY:	容量：	ui.newUI.inventory.CapacityBox
+INVENTORY		ui.newUI.inventory.BackpackUI
+USE	自己使用	ui.newUI.inventory.BackpackUI
+USE ON TARGET	对别人使用	ui.newUI.inventory.BackpackUI
+Use 	将物品 	gamestate.listener.turnbased.UseItemListener
+ on 	 作用于 	gamestate.listener.turnbased.UseItemListener
+TOO FAR	太远了	gamestate.listener.turnbased.UseItemListener
+EQUIP WEAPON	装备武器	ui.newUI.inventory.BackpackUI
+RELOAD	重新装弹	ui.newUI.inventory.BackpackUI
+EQUIP SUIT	穿上护具	ui.newUI.inventory.BackpackUI
+GIVE TO	把此物品给	ui.newUI.inventory.BackpackUI
+STORE ITEM	放入保险柜	ui.newUI.inventory.BackpackUI
+TAKE ITEM	拿走	ui.newUI.inventory.BackpackUI
+RECYCLE	分解回收	ui.newUI.inventory.BackpackUI
+RECYCLED ENERGY:	已回收能量：	ui.newUI.inventory.CharacterInventory
+CLOSE	关闭	ui.newUI.inventory.CharacterInventory
+THIS CHARACTER HAS ALREADY CONSUMED 	这个角色已经使用了 	ui.newUI.GameUI
+ STIMPACKS, WHICH IS MORE THEN THE RECOMMENDED HUMAN DOSAGE. \n\n APPLYING MORE STIMPACKS CAN LEAD TO RANDOM AND NEGATIVE EFFECTS.	 针兴奋剂，已经超过了推荐剂量。\n如果坚持要使用，可能导致随机或负面影响。	ui.newUI.GameUI
+USE ANYWAY	坚持使用	ui.newUI.GameUI
+CANCEL	取消	ui.newUI.GameUI
+
+	游戏内背包界面-装备面板	
+SPLASH DAMAGE:	溅射伤害：	ui.newUI.inventory.GrenadeInfoBox
+SUIT	护具	
+SHIELD:	护盾：	ui.newUI.inventory.SuitInfoBox
+ARMOR:	护甲：	ui.newUI.inventory.SuitInfoBox
+RECHARGE TIME:	充能时间：	ui.newUI.inventory.SuitInfoBox
+ TURNS	 回合	ui.newUI.inventory.SuitInfoBox
+Agility	敏捷加成	ui.newUI.inventory.SuitInfoBox
+Aiming	命中加成	ui.newUI.inventory.SuitInfoBox
+Health	体力加成	ui.newUI.inventory.SuitInfoBox
+ASSAULT RIFLE	突击步枪	
+RANGED DAMAGE:	远程伤害：	ui.newUI.inventory.WeaponInfoBox
+MELEE DAMAGE:	近战伤害：	ui.newUI.inventory.WeaponInfoBox
+RANGE:	射程：	ui.newUI.inventory.WeaponInfoBox
+ TILES	 格	ui.newUI.inventory.WeaponInfoBox
+MAGAZINE:	弹匣状态：	ui.newUI.inventory.WeaponInfoBox
+
+
+	游戏内战斗界面	
+HIT-CHANCE: 	命中率：	gamestate.listeners.turnbased.AttackListener
+NO AMMO	没有弹药	gamestate.listeners.turnbased.AttackListener
+NOT VISIBLE	当前角色对此目标不可见	gamestate.listeners.turnbased.AttackListener
+ ATPT:		gamestate.listeners.turnbased.AttackListener
+NO TARGET	没有目标	gamestate.listeners.turnbased.AttackListener
+NO WEAPON	没有武器	gamestate.listeners.turnbased.AttackListener
+NO MEDKITS AVAILABLE	没有可用的医疗包	ui.newUI.RingUI.1
+USE MEDKIT	使用医疗包	ui.newUI.RingUI.1
+ATTACK VISIBLE TARGET	攻击可见目标	ui.newUI.RingUI.2
+NOT AVALIABLE.	当前不可用	ui.newUI.RingUI.2
+NO ENEMY VISIBLE	没有可见敌人	ui.newUI.RingUI.2
+NO AMMO	没有弹药	ui.newUI.RingUI.2
+RELOAD WEAPON	重新装弹	ui.newUI.RingUI.3
+NOT AVALIABLE.	当前不可用	ui.newUI.RingUI.3
+RETALIATE	战术回击	ui.newUI.RingUI.4
+NOT AVALIABLE.	当前不可用	ui.newUI.RingUI.4
+Cooldown: 	冷却时间：	ui.newUI.RingUI.5
+ turns.	 回合	ui.newUI.RingUI.5
+Use grenade	使用手雷	ui.newUI.RingUI.6
+NO GRENADES AVAILABLE	没有可用的手雷	ui.newUI.RingUI.6
+      TO INCREASE ACCURACY	   右击鼠标 切换攻击方式	ui.newUI.AimingRing
+ AP	 行动点	ui.newUI.AimingRing
+
+STEADY SHOT		
+SELF HEAL		
+
+
+	游戏内战斗界面-战斗日志
+ HAS SPOTTED AN ENEMY.	 发现了一个敌人。	gamestate.states.human.ToTurnBasedTransition
+ rolled 		
+ and hit the target.	 并且击中了目标。	unitaction.state.AttackingAction
+ hit target and dealt 	 对目标造成 	unitaction.state.AttackingAction
+ damage.	 点伤害。	unitaction.state.AttackingAction
+Enemy hit 	敌人对 	unitaction.state.AttackingAction
+ and dealt 	 造成了 	unitaction.state.AttackingAction
+ missed the target.	 没有击中目标。	unitaction.state.AttackingAction
+Enemy missed 	敌人没有打中 	unitaction.state.AttackingAction
+"'s weapon is out of ammo."	的武器已经打光了子弹。	unitaction.state.AttackingAction
+PLAYER TURN FINISHED.	玩家按快捷键结束了回合。	gamestate.listeners.turnbased.TurnBasedKeyListener
+PLAYER TURN FINISHED.	玩家点击了回合结束按钮。	ui.newUI.border.TurnButton.1
+AI TURN FINISHED.	电脑回合已结束。	gamestate.states.computer.NextComputerUnit
+FULL HP RESTORED	体力已回满	
+
+	基地界面	
+SELECT NEXT MISSION	开始新任务	
+MISSION BRIEFING	任务简报	ui.newUI.GameUI
+GO SHOPPING	逛逛商店	
+GO SHOPPING!	逛逛商店！	ui.newUI.GameUI
+MANAGE TEAM EQUIPMENT	管理物品	ui.newUI.GameUI
+USE MEDI-SCAN-MASTER 2000	使用医疗扫描仪2000	
+PICK YOUR TEAM MEMBERS	选择作战队员	ui.newUI.GameUI
+0/4 UNITS SELECTED	0/4 人员已选择	ui.newUI.border.TeamSelectedDisplay
+ UNITS SELECTED	人员已选择	ui.newUI.border.TeamSelectedDisplay
+DEPLOY	确认部署作战	ui.newUI.border.TeamSelectBorder
+Required Character.	必选角色 不可更改	ui.newUI.team.TeamSelectionButton.1
+Add 	勾选，让 	ui.newUI.team.TeamSelectionButton.1
+ to squad.	 入队	ui.newUI.team.TeamSelectionButton.1
+Remove 	取消勾选，让 	ui.newUI.team.TeamSelectionButton.1
+ from squad.	 离队	ui.newUI.team.TeamSelectionButton.1
+" said: """		ui.newUI.GameUI
+FREE		ui.newUI.GameUI
+
+	基地界面-商店	
+AMMUNITION	弹药	ui.newUI.shop.Shop
+MEDKITS	医疗包	ui.newUI.shop.Shop
+SHIELD CELLS	护盾能量块	ui.newUI.shop.Shop
+GRENADES	手雷	ui.newUI.shop.Shop
+ENERGY AVAILABLE:	可用能量：	ui.newUI.shop.Shop
+CLOSE	关闭	ui.newUI.shop.Shop
+
+
+
+
+
